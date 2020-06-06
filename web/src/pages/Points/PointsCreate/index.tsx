@@ -5,7 +5,7 @@ import { Map, TileLayer, Marker } from 'react-leaflet'
 import { LeafletMouseEvent } from 'leaflet'
 
 import axios from 'axios';
-import api from '../../../services/api';
+import server from '../../../services/server';
 
 import Dropzone from '../../../components/Dropzone';
 
@@ -77,7 +77,7 @@ function PointsCreate() {
    * Fetch and set categories.
    */
   useEffect(() => {
-    api.get('categories').then(response => {
+    server.get('categories').then(response => {
       setCategories(response.data);
     });
   }, []);
@@ -183,7 +183,7 @@ function PointsCreate() {
       data.append('image', selectedFile);
     }
 
-    await api.post('points', data);
+    await server.post('points', data);
 
     alert('Ponto de coleta criado com sucesso!');
 
