@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Constants from 'expo-constants';
 import { Feather as Icon } from '@expo/vector-icons';
-import { View, StyleSheet, Text, Image, TouchableOpacity, ScrollView, Alert } from 'react-native';
+import { View, Text, Image, TouchableOpacity, ScrollView, Alert } from 'react-native';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import MapView, { Marker } from 'react-native-maps';
 import { SvgUri } from 'react-native-svg';
