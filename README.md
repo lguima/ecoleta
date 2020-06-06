@@ -2,7 +2,7 @@
   <img alt="Ecoleta" src="./web/src/assets/logo.svg" width="300">
 </p>
 
-<p style="font-size: 1.5em" align="center">
+<p align="center">
   <strong>Waste Collection Marketplace</strong>
 </p>
 
