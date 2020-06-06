@@ -6,7 +6,7 @@
   <strong>Waste Collection Marketplace</strong>
 </p>
 
-# Architecture
+# API
 
 API built using:
 - [Node.js](https://nodejs.org)
@@ -16,6 +16,28 @@ API built using:
     - [Multer](https://github.com/expressjs/multer)
 - [SQLite](https://www.sqlite.org)
   - [Knex.js](http://knexjs.org)
+
+# Installation
+
+```bash
+# Install dependencies
+npm install
+
+# Run migrations
+npm run migrate
+
+# Run seeds
+npm run seed
+```
+
+# Usage
+
+```bash
+# Start application
+$ npm run dev
+```
+
+The API will be available at `http://localhost:3333`.
 
 # Credits
 
