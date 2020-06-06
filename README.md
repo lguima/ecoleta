@@ -1,16 +1,16 @@
-<h1 align="center">
+<p align="center">
   <img alt="Ecoleta" src="./web/src/assets/logo.svg" width="300">
-</h1>
+</p>
 
-<h2 align="center">
+<p style="font-size: 1.5em" align="center">
   <strong>Waste Collection Marketplace</strong>
-</h2>
+</p>
 
 # Architecture
 
 ## Backend
 
-### [API](api/README.md)
+### [API](api#readme)
 
 API built using:
 - [Node.js](https://nodejs.org)
@@ -23,7 +23,7 @@ API built using:
 
 ## Frontend
 
-### [Web](web/README.md)
+### [Web](web#readme)
 
 Web application built using:
 - [React](https://reactjs.org)
@@ -31,7 +31,7 @@ Web application built using:
 - [React Dropzone](https://leafletjs.com)
 - [Leaflet](https://react-dropzone.js.org)
 
-### [Mobile](mobile/README.md)
+### [Mobile](mobile#readme)
 
 Mobile application built using:
 - [React Native](https://reactnative.dev)
