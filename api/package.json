@@ -1,16 +1,28 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "description": "",
+  "name": "ecoleta-api",
+  "version": "0.1.0",
+  "description": "API for Ecoleta - Waste Collection Marketplace",
+  "keywords": [
+    "next-level-week",
+    "next-level-week-1",
+    "rocketseat",
+    "rocketseat-nlw",
+    "node",
+    "typescript",
+    "express",
+    "celebrate",
+    "multer",
+    "sqlite",
+    "knex"
+  ],
+  "author": "Lucas Guima",
+  "license": "GPL-3.0",
   "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev --transpileOnly --ignore-watch node_modules src/server.ts",
     "migrate": "knex --knexfile knexfile.ts migrate:latest",
     "seed": "knex --knexfile knexfile.ts seed:run"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "celebrate": "^12.1.1",
     "cors": "^2.8.5",
