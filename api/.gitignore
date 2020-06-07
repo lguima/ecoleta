@@ -1,4 +1,7 @@
 node_modules/
+npm-debug.log
+
+/*.env
 
 !uploads/
 
@@ -14,3 +17,5 @@ uploads/storage/*
 !uploads/storage/.gitkeep
 
 *.sqlite
+
+.DS_Store
