@@ -1,7 +1,19 @@
 {
-  "name": "web",
+  "name": "ecoleta-web",
   "version": "0.1.0",
-  "private": true,
+  "description": "Website for Ecoleta - Waste Collection Marketplace",
+  "keywords": [
+    "next-level-week",
+    "next-level-week-1",
+    "rocketseat",
+    "rocketseat-nlw",
+    "reactjs",
+    "typescript",
+    "react-dropzone",
+    "leaflet"
+  ],
+  "author": "Lucas Guima",
+  "license": "GPL-3.0",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
