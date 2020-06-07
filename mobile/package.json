@@ -1,4 +1,18 @@
 {
+  "name": "ecoleta-mobile",
+  "version": "0.1.0",
+  "description": "Mobile app for Ecoleta - Waste Collection Marketplace",
+  "keywords": [
+    "next-level-week",
+    "next-level-week-1",
+    "rocketseat",
+    "rocketseat-nlw",
+    "react-native",
+    "typescript",
+    "expo"
+  ],
+  "author": "Lucas Guima",
+  "license": "GPL-3.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
@@ -36,6 +50,5 @@
     "@types/react-native": "~0.61.17",
     "babel-preset-expo": "~8.1.0",
     "typescript": "~3.8.3"
-  },
-  "private": true
+  }
 }
