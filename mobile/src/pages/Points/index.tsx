@@ -41,24 +41,33 @@ export default function Points() {
 
   const routeParams = route.params as LocaleData;
 
+  /**
+   * Fetch and set categories.
+   */
   useEffect(() => {
     server.get('categories').then(response => {
       setCategories(response.data);
     });
-  });
+  }, []);
 
+  /**
+   * Search and set points.
+   */
   useEffect(() => {
     server.get('points', {
       params: {
         city: routeParams.city,
         state: routeParams.state,
         categories: selectedCategories,
-      }
+      },
     }).then(response => {
       setPoints(response.data);
     });
   }, [selectedCategories]);
 
+  /**
+   * Get and set the user position.
+   */
   useEffect(() => {
     async function loadPosition() {
       const { status } = await Location.requestPermissionsAsync();
