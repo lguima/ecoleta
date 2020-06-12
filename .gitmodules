@@ -1,0 +1,3 @@
+[submodule "ecoleta-api"]
+	path = ecoleta-api
+	url = git@github.com:lguima/ecoleta-api.git
