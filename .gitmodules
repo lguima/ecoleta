@@ -1,6 +1,0 @@
-[submodule "ecoleta-api"]
-	path = ecoleta-api
-	url = git@github.com:lguima/ecoleta-api.git
-[submodule "web2"]
-	path = web2
-	url = git@github.com:lguima/ecoleta-web.git
